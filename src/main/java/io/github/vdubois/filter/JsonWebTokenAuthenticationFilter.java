@@ -1,4 +1,4 @@
-package io.github.vdubois.security.filter;
+package io.github.vdubois.filter;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.authentication.AuthenticationManager;

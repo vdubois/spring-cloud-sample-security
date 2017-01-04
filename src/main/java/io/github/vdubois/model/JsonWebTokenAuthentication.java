@@ -1,4 +1,4 @@
-package io.github.vdubois.security.model;
+package io.github.vdubois.model;
 
 import org.springframework.security.authentication.AbstractAuthenticationToken;
 import org.springframework.security.core.userdetails.UserDetails;

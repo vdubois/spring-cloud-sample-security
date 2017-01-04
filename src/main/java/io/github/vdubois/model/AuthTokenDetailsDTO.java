@@ -1,4 +1,4 @@
-package io.github.vdubois.security.model;
+package io.github.vdubois.model;
 
 import com.fasterxml.jackson.annotation.JsonFormat;
 import lombok.Data;

@@ -1,6 +1,6 @@
-package io.github.vdubois.security.service;
+package io.github.vdubois.service;
 
-import io.github.vdubois.security.model.AuthTokenDetailsDTO;
+import io.github.vdubois.model.AuthTokenDetailsDTO;
 import io.jsonwebtoken.Claims;
 import io.jsonwebtoken.JwtException;
 import io.jsonwebtoken.Jwts;

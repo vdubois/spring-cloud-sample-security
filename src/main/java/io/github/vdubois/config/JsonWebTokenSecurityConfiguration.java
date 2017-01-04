@@ -1,7 +1,7 @@
-package io.github.vdubois.security.config;
+package io.github.vdubois.config;
 
-import io.github.vdubois.security.filter.JsonWebTokenAuthenticationFilter;
-import io.github.vdubois.security.service.JsonWebTokenAuthenticationProvider;
+import io.github.vdubois.filter.JsonWebTokenAuthenticationFilter;
+import io.github.vdubois.service.JsonWebTokenAuthenticationProvider;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.security.authentication.AuthenticationManager;

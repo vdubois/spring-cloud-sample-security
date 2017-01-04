@@ -1,7 +1,7 @@
-package io.github.vdubois.security.service;
+package io.github.vdubois.service;
 
-import io.github.vdubois.security.model.AuthTokenDetailsDTO;
-import io.github.vdubois.security.model.JsonWebTokenAuthentication;
+import io.github.vdubois.model.AuthTokenDetailsDTO;
+import io.github.vdubois.model.JsonWebTokenAuthentication;
 import org.springframework.security.authentication.AuthenticationProvider;
 import org.springframework.security.core.Authentication;
 import org.springframework.security.core.AuthenticationException;
@@ -22,6 +22,10 @@ import java.util.stream.Collectors;
 public class JsonWebTokenAuthenticationProvider implements AuthenticationProvider {
 
     private JsonWebTokenService jsonWebTokenService;
+
+    public JsonWebTokenAuthenticationProvider(JsonWebTokenService jsonWebTokenService) {
+        this.jsonWebTokenService = jsonWebTokenService;
+    }
 
     @Override
     public Authentication authenticate(Authentication authentication) throws AuthenticationException {
